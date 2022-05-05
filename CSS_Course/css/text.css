@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+p{
+    color: blue;
+    font-family: 'Inconsolata', monospace;
+    font-size: 120%;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    text-align: justify;
+    text-transform: lowercase;
+    text-decoration: underline;
+}

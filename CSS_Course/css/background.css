@@ -1,0 +1,9 @@
+.background{
+    /* background-color: brown; */
+    height: 500px;
+    background-image: url(../images/4641158.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

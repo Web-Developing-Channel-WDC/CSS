@@ -1,0 +1,29 @@
+ul{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style: none;
+    background-color: crimson;
+    width: 18%;
+    height: 200px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}

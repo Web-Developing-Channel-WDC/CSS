@@ -1,0 +1,30 @@
+/* parent */
+.rectangle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    /* margin: 10%; */
+    /* margin-top: 10%; */
+    /* margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%; */
+    /* margin: 10% 5% 10% 5%; */
+    /* margin: 10% 5%; */
+
+    /* padding: 10%; */
+    /* padding-top: 10%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+    padding-right: 5%; */
+    /* padding: 10% 5% 10% 5%; */
+    padding: 10% 5%;
+}
+
+/* child */
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+}

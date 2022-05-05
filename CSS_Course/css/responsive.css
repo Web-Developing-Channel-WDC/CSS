@@ -1,0 +1,36 @@
+h1{
+    width: 50%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+h1:first-child{
+    background-color: red;
+}
+
+h1:last-child{
+    background-color: blue;
+}
+
+@media screen and (min-width: 1440px) {
+    h1{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    h1{
+        width: 100%;
+    }
+
+    h1:last-child{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        width: 100%;
+    }
+}

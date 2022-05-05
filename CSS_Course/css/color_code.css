@@ -1,0 +1,22 @@
+.rectangle{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*
+    1. Color Name
+    2. Hash Code
+        #000000 - black
+        #ffffff - white
+        #ff0000 - red
+        #00ff00 - green
+        #0000ff - blue
+        #ffff00 - yellow
+        #ff00ff - magenta
+        #00ffff - cyan
+
+        #ff0000 - #f00
+    3. RGB Code
+    4. RGBA Code
+*/

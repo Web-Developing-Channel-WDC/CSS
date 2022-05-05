@@ -1,0 +1,14 @@
+.rectangle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.4s ease;
+}
+
+h1{
+    text-shadow: 0 0 10px #000;
+}
+
+.rectangle:hover{
+    box-shadow: 0 0 20px #000;
+}

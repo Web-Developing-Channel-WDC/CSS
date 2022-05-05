@@ -1,0 +1,26 @@
+h1{
+    background-color: blue;
+    color: white;
+    width: 300px;
+    height: 100px;
+    display: inline;
+}
+
+span{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: inline;
+    visibility: hidden;
+}
+
+/* 
+    Display
+    1/ Block
+    2/ Inline
+    3/ Inline-Block
+    4/ None
+
+    Visibility None
+*/

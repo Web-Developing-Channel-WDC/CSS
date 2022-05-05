@@ -1,0 +1,28 @@
+/* Tag Selector */
+h3{
+    color: green;
+    background-color: red;
+    width: 50%;
+}
+
+/* Class Selector */
+.internal-2{
+    color: yellow;
+    background-color: blue;
+    width: 75%;
+}
+
+/* Id Selector */
+#external-2{
+    color: red;
+    background-color: green;
+    width: 100%;
+}
+
+.parent .text p{
+    color: white;
+}
+
+.parent .background p{
+    background-color: blueviolet;
+}

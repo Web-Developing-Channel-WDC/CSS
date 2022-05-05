@@ -1,0 +1,42 @@
+.rectangle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.4s ease;
+}
+
+.rectangle:hover{
+    background-color: blue;
+}
+
+input[type=text]{
+    padding: 1%;
+    transition: 0.4s ease;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+input[type=text]:focus{
+    outline: none;
+    border-bottom-color: blue;
+}
+
+/* ul li:first-child{
+    background-color: green;
+}
+
+ul li:last-child{
+    background-color: blueviolet;
+}
+
+ul li:nth-child(3){
+    background-color: red;
+} */
+
+ul li:nth-child(2n){
+    background-color: green;
+}
+
+ul li:nth-child(2n - 1){
+    background-color: yellow;
+}

@@ -1,0 +1,53 @@
+.parent{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    top: 250px;
+    left: 600px;
+}
+
+.child{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.nav{
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.fixed-btn{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    line-height: 50px;
+    text-align: center;
+    z-index: 3;
+}
+
+.sticky-nav{
+    width: 100%;
+    background-color: steelblue;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}

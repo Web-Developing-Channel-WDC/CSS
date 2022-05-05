@@ -1,0 +1,18 @@
+.rectangle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    outline: 10px solid black;
+    outline-offset: 5px;
+    /* outline-style: double;
+    outline-width: 10px;
+    outline-color: blue; */
+    border: 10px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 
+    Box Model
+    actual width/ height = width/ height + padding + border + margin
+*/

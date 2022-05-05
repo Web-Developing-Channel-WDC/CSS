@@ -1,0 +1,37 @@
+h1{
+    color: green;
+}
+
+h1::before{
+    content: 'R';
+    color: red;
+}
+
+h1::after{
+    content: 'B';
+    color: blue;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+}
+
+h2::before{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    bottom: 5px;
+    left: 413px;
+}
+
+h2::after{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    bottom: 5px;
+}

@@ -1,0 +1,19 @@
+body{
+    background-color: #333;
+}
+
+.images img{
+    /* border: 10px double red; */
+    /* border-width: 10px;
+    border-style: dashed;
+    border-color: blue; */
+    /* border-radius: 50%; */
+    /* border-radius: 50px; */
+    /* border-top: 10px solid red; */
+    /* border-bottom: 10px solid red;
+    border-top-width: 10px;
+    border-top-style: dashed;
+    border-top-color: green; */
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}

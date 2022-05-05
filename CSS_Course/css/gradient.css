@@ -1,0 +1,20 @@
+.rectangle{
+    width: 500px;
+    height: 500px;
+    /* background-image: linear-gradient(to left top, skyblue, steelblue, blue); */
+    background-image: radial-gradient(red, green, blue);
+}
+
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: conic-gradient(red 0deg, red 180deg, blue 180deg, blue 300deg, green 300deg);
+}
+
+/*
+Gradient (3)
+1/ Linear Gradient
+2/ Radical Gradient
+3/ Conic Gradient
+*/
